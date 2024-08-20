@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import ReduxProvider from "@/components/ReduxProvider/ReduxProvider";
 import HeaderApp from "@/components/HeaderApp/HeaderApp";
+import FooterApp from "@/components/FooterApp/FooterApp";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +24,7 @@ export default function RootLayout({
         <ReduxProvider>
           <HeaderApp />
         {children}
-        
+        <FooterApp />
         </ReduxProvider>
         
         </body>
