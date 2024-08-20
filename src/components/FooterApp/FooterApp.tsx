@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import dataLinks from "./dataLinksRor.json"
 import { useMediaQuery } from "react-responsive";
