@@ -4,12 +4,11 @@ import dataLinks from "./dataLinksRor.json"
 import { useMediaQuery } from "react-responsive";
 
 const FooterApp = () => {
-    const { GitHub, LinkedIn, HackerRank, CV } = dataLinks;
+    const { GitHub, LinkedIn, HackerRank, CV, Portfolio } = dataLinks;
     const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
   return (
     <footer className="bg-gray-800 text-white py-6 mt-8">
       <div className="container mx-auto flex flex-col items-center">
-        
         
         <div className="flex space-x-6">
           <a
@@ -104,7 +103,31 @@ const FooterApp = () => {
             {isMobile ? "" : "CV"}
             
           </a>
+          <a
+            href={Portfolio}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center hover:text-gray-400"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="size-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3.75 12h16.5m-16.5 0a3.75 3.75 0 0 1 0-7.5h16.5a3.75 3.75 0 0 1 0 7.5m-16.5 0L12 21.75m0 0L20.25 12m-8.25 9.75V2.25"
+              />
+            </svg>
+            {isMobile ? "" : "Portfolio"}
+          </a>
+          
         </div>
+
         <p className="mt-4 text-gray-500">
           © {new Date().getFullYear()} ROR2022
         </p>
