@@ -23,7 +23,7 @@ const FooterApp = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="size-6"
+              className="size-6 me-2"
             >
               <path
                 strokeLinecap="round"
@@ -46,7 +46,7 @@ const FooterApp = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="size-6"
+              className="size-6 me-2"
             >
               <path
                 strokeLinecap="round"
@@ -69,7 +69,7 @@ const FooterApp = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="size-6"
+              className="size-6 me-2"
             >
               <path
                 strokeLinecap="round"
@@ -92,7 +92,7 @@ const FooterApp = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="size-6"
+              className="size-6 me-2"
             >
               <path
                 strokeLinecap="round"
@@ -115,7 +115,7 @@ const FooterApp = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="size-6"
+              className="size-6 me-2"
             >
               <path
                 strokeLinecap="round"
@@ -125,7 +125,7 @@ const FooterApp = () => {
             </svg>
             {isMobile ? "" : "Portfolio"}
           </a>
-          
+
         </div>
 
         <p className="mt-4 text-gray-500">
